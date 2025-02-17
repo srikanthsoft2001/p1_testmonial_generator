@@ -20,22 +20,6 @@ const testimonials = [
   },
 ];
 
-// updateTestimonial();
-
-// function updateTestimonial() {
-//   const { name, photoUrl, text } = testimonials[idx];
-//   imgEl.src = photoUrl;
-//   textEl.innerText = text;
-//   usernameEl.innerText = name;
-//   idx++;
-//   if (idx === testimonials.length) {
-//     idx = 0;
-//   }
-//   setTimeout(() => {
-//     updateTestimonial();
-//   }, 10000);
-// }
-
 // access the target texts and images by creating them
 const authorImg = document.querySelector(".user_image");
 const authordQuote = document.querySelector(".quote");
