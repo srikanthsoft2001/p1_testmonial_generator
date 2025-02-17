@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* body styling + testimonial-container*/
+
+/* testimonial container is fixed in center of the page */
+body {
+  /* align the box in center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.testimonial-container {
+  width: 500px;
+  height: 200px;
+  background-color: slateblue;
+  position: relative;
+  border-radius: 20px;
+}
+
+/* img -styling */
+.user_image {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 40%;
+  border-radius: 50%;
+  top: -30%;
+}
+
+.quote_container {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+/* quote and username styling */
+.quote {
+  color: white;
+}
+.user_name {
+  color: white;
+}
